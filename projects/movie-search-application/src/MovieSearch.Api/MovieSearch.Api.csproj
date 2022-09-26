@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BuildingBlocks\BulidingBlocks\BuildingBlocks.csproj" />
+    <ProjectReference Include="..\MovieSearch.Application\MovieSearch.Application.csproj" />
+    <ProjectReference Include="..\MovieSearch.Infrastructure\MovieSearch.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
